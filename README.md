@@ -4,6 +4,10 @@ A personal, ready-to-go configuration base for new **Next.js 15 (App Router)**
 projects. This is the config layer only (no application code), so you can drop
 your own `app/`, `components/`, and `lib/` on top.
 
+This was built with a bit of strictness in mind, to help keep my code as clean as possible (see below).
+
+The versions may update over time, and some of the linting/code conventions are my own personal preferences.
+
 ## Stack
 
 - **Next.js 15** + **React 19** + **TypeScript** (strict)
@@ -37,6 +41,5 @@ pnpm dev
 ## Conventions
 
 - React component files use **TitleCase** (e.g. `Button.tsx`), including
-  `components/ui` primitives. Next.js reserved files (`page.tsx`, `layout.tsx`)
-  stay lowercase. Non-component modules in `lib/` stay lowercase.
+  `components/ui` primitives.
 - Path alias `@/*` maps to the project root.
